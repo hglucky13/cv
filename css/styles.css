@@ -1,0 +1,146 @@
+/* Color Palette: F6F6F6, FFE2E2, FFC7C7, AAAAAA */
+
+/********************* Global styling *********************/
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #40514e;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 6rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Tilt Neon', san-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: 'Tilt Neon', san-serif;
+    color: #11999E;
+    margin-top: 1.5rem;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 1.5rem;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+hr {
+    width: 6%;
+    border: none;
+    border-top: 0.5em dotted #EAf6f6;
+    margin-bottom: 6rem;
+}
+
+
+/********************* Class specific styling *********************/
+
+/*************************** Main DIVs ****************************/
+.top-container {
+    background-color: #EAf6f6;
+    padding-top : 200px;
+    position: relative;
+}
+
+.middle-container {
+    padding: 2rem 0 3rem 0;
+}
+
+.bottom-container {
+    padding: 1.4rem 0 0.1rem;
+    background-color: #11999E;
+}
+
+/*********************** Single Instance *************************/
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 600px;    
+}
+
+.btn {
+    background-color: #11999E;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    border-radius: 1.2rem;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #66BFBF;
+}
+
+.email-me {
+    width: 25%;
+    margin: 20px auto;
+}
+
+.footer-link {
+    color: #66BFBF;
+    font-size: 1.2rem;
+    margin: 0 0.6rem 100px;
+}
+
+.illustration-icon {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.main-subtitle {
+    margin-top: 0;
+    margin-bottom: 4rem;
+}
+
+.problem-icon {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile {
+    width: 40%;
+    margin: 100px auto;
+    line-height: 2;
+    vertical-align: text-bottom;
+}
+
+.profile-img {
+    width: 60%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 60px auto 120px auto;
+    text-align: left;
+    line-height: 2;
+    vertical-align: text-bottom;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 80px;
+    right: 600px;
+}
